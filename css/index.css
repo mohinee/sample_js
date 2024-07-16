@@ -1,11 +1,32 @@
 body {
-    text-align: center;
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#level-count-0 {
+  margin-left: 0px;
+  margin-bottom: 16px;
+}
+
+#level-count-1{
+  margin-left: 48px;
+  margin-bottom: 8px;
+}
+
+#level-count-2 {
+  margin-left: 72px;
+  margin-bottom: 4px;
+}
+
+#level-count-3 {
+  margin-left: 96px;
+  margin-bottom: 2px;
+}
+
+.arrow-button {
+  border: none;
+  background-color: #FFF;
 }

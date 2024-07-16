@@ -1,5 +1,4 @@
 {
-
     "name": "sample",
     "license": "UNLICENSED",
     "jest": {
@@ -23,9 +22,15 @@
         "test": "jest --coverage"
     },
     "dependencies": {
-        "lodash": "^4.17.20"
+        "@fortawesome/fontawesome-free": "^6.5.2",
+        "lodash": "^4.17.20",
+        "parcel": "^2.0.1"
     },
     "devDependencies": {
         "jest": "^26.4.0"
-    }
+    },
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/mohinee/sample_js.git",
+    "author": "mohinee01 <mohineet@gmail.com>"
 }
